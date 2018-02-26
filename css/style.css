@@ -10,6 +10,14 @@ header {
     height: ;
 }
 
+
+
+
+
+
+
+
+
 /* NAVIGATION STYLE */
 nav { 
     width: 300px; 
@@ -76,19 +84,30 @@ nav li a:hover {
 
 
 /* CONTENT AREA */
-#first-content {
-    background: radial-gradient(#6fa86f, darkgreen);
-    width: 100%;
-    height: 200px;
-    color: #FFF;
-    font-size: 2em;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom: 200px;
-    z-index: 2;
-    position: relative;
+.content { position:relative; }
+
+.content video {
+
+    position:relative;
+
+    z-index:0;
+
 }
+
+.overlay {
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    z-index:1;
+
+}
+
+
+
 
 /* VIDEO CONTROLS */
 
